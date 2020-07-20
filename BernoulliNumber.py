@@ -26,11 +26,8 @@ def calculateBernouli(n,pasc,brn):
         brn.append(0)
         return calculateBernouli(n, pasc, brn)
     
-    '''if len(pasc)==38 and n==36:
-        print(pasc[-1],brn[1:])
-    '''
-    p=[]
-    d=[]
+    p,d=[],[]
+    
     for c,v in enumerate(pasc[-1][1:len(pasc[-1])-2]):
         p.append(v)
         d.append(brn[c+1])
