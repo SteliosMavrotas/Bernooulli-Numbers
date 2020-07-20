@@ -1,1 +1,1 @@
-This code is used to compute the nth Bernouli Number.
+This code is used to compute the nth Bernouli Number. The function has been built in a recursive nature and uses memoization to store both Pascal's triangle value and the previous Bernouli numbers before returning them as a Fraction.
